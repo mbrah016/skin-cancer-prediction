@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../skin_cancer_final_model2.h5")
+MODEL = tf.keras.models.load_model("..skin_cancer_final_model2.h5")
 
 # Class names for the two classes
 CLASS_NAMES = ["benign", "malignant"]
